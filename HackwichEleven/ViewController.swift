@@ -22,7 +22,8 @@ class ViewController: UIViewController {
     
     //set up initial location (lat, long) for our map
     let initialLocation = CLLocation(latitude: 21.356522325850733, longitude: -158.05621900337144)
-    
+    //let initialLocation = CLLocation(latitude: 21.335039, longitude: -158.088287)
+
     
     //declare a region radius around our initialLocation; the circle. Distance is in meters.
     let regionRadius: CLLocationDistance = 10000
@@ -41,6 +42,13 @@ class ViewController: UIViewController {
         
         //
         mapView.addAnnotation(restaurantOne)
+        
+        
+        
+        let restaurantTwo = restaurantAnnotation (title: "Chief's Luau", type: "Hawaiian", coordinate: CLLocationCoordinate2D (latitude: 21.335039, longitude: -158.088287))
+        
+        //
+        mapView.addAnnotation(restaurantTwo)
         
     }
     
