@@ -12,6 +12,7 @@
 		CE3FB41C262D7AFA00F109E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3FB41A262D7AFA00F109E0 /* Main.storyboard */; };
 		CE3FB41E262D7AFB00F109E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3FB41D262D7AFB00F109E0 /* Assets.xcassets */; };
 		CE3FB421262D7AFB00F109E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3FB41F262D7AFB00F109E0 /* LaunchScreen.storyboard */; };
+		CE3FB429262D84F200F109E0 /* restaurantAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FB428262D84F200F109E0 /* restaurantAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CE3FB41D262D7AFB00F109E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE3FB420262D7AFB00F109E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE3FB422262D7AFB00F109E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3FB428262D84F200F109E0 /* restaurantAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restaurantAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				CE3FB416262D7AFA00F109E0 /* AppDelegate.swift */,
 				CE3FB418262D7AFA00F109E0 /* ViewController.swift */,
 				CE3FB41A262D7AFA00F109E0 /* Main.storyboard */,
+				CE3FB428262D84F200F109E0 /* restaurantAnnotation.swift */,
 				CE3FB41D262D7AFB00F109E0 /* Assets.xcassets */,
 				CE3FB41F262D7AFB00F109E0 /* LaunchScreen.storyboard */,
 				CE3FB422262D7AFB00F109E0 /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				CE3FB419262D7AFA00F109E0 /* ViewController.swift in Sources */,
 				CE3FB417262D7AFA00F109E0 /* AppDelegate.swift in Sources */,
+				CE3FB429262D84F200F109E0 /* restaurantAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
